@@ -24,22 +24,22 @@ function draw() {
   //stump
   for (let rectX = -500; rectX <= 600; rectX += 50) {
     noStroke();
-     fill("rgb(20,64,41)")
-   rect(rectX, 100, 100, 30)
-  rect(rectX, 120, rectX, height);
-    stroke(1)
-    fill("#192829")
-    rect(rectX, 100, rectX, height);
-    fill("rgb(81,150,120)")
-      noStroke();
+  //   fill("rgb(20,64,41)")
+  // rect(rectX, 100, 100, 30)
+  //rect(rectX, 120, rectX, height);
+  //  stroke(1)
+  //  fill("#192829")
+   // rect(rectX, 100, rectX, height);
+   // fill("rgb(81,150,120)")
+   //   noStroke();
     
-    rect(rectX+35, 200, 6, 100);
-    rect(rectX+25, 250, 6, 20);
-    fill("black")
-    rect(15,250,40,100)
-    rect(30,220,20,30)
-    fill("red")
-    rect(39,230,5,5)
+   // rect(rectX+35, 200, 6, 100);
+   // rect(rectX+25, 250, 6, 20);
+   // fill("black")
+   // rect(15,250,40,100)
+   // rect(30,220,20,30)
+   // fill("red")
+   // rect(39,230,5,5)
     
     
   }
@@ -64,24 +64,24 @@ for(var i = 0; i <= width; i+=50)
         
   }
 //tree branche 
-for (let rectX = -100-600; rectX <= 600; rectX += 50) {
- fill("rgb(31,160,110)")
-    rect(i, 0, rectX, 90);
-  fill("rgb(32,164,112)")
-  rect(i, 12, rectX, 90);
- fill("rgb(0,128,73)")
-   rect(i, 0, rectX, 90);
-  fill("#104930")
-   rect(i+3, -30, rectX, 90);
-  rect(i, 20, rectX, 60,50);
-  fill("rgb(138,220,124)")
-  rect(i, 10,rectX, 3, 100,rectX);
-}
+//for (let rectX = -100-600; rectX <= 600; rectX += 50) {
+ //fill("rgb(31,160,110)")
+ //   rect(i, 0, rectX, 90);
+ // fill("rgb(32,164,112)")
+//  rect(i, 12, rectX, 90);
+// fill("rgb(0,128,73)")
+ //  rect(i, 0, rectX, 90);
+ // fill("#104930")
+ //  rect(i+3, -30, rectX, 90);
+ // rect(i, 20, rectX, 60,50);
+ // fill("rgb(138,220,124)")
+ // rect(i, 10,rectX, 3, 100,rectX);
+//}
   function draw(){
   if(mouseY>200){
     background("black")
   
-  loop(randomShaped());   
+  //loop(randomShaped());   
      }
 }
 
