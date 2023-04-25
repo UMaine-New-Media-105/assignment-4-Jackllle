@@ -21,7 +21,8 @@ function draw() {
 function drawTile(x, y, size) {
   let numPoints = 4; // number of points of the star
   let radius = size / 2; // radius of the star
-  fill(200);
+  //make them random
+  fill(random(200));
   let angle = TWO_PI / numPoints;
   let halfAngle = angle / 2;
   
